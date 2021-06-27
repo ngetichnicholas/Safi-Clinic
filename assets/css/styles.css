@@ -25,3 +25,6 @@
   background-color: #28A745;
   color: white;
 }
+ul {
+  list-style: none;
+}

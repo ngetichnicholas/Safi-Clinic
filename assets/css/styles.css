@@ -5,3 +5,23 @@
   background-repeat: no-repeat;
   height: 80vh;
 }
+.project-launcher {
+  text-align: center;
+  align-items: center;
+}
+.project-launcher a {
+  background-color: white;
+  border:solid 1.5px #ABB8C9;
+  color: #28A745;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 4px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.project-launcher a:hover {
+  background-color: #28A745;
+  color: white;
+}

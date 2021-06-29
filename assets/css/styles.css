@@ -1,9 +1,10 @@
 .jumbotron {
   text-align: center;
-  background-image: url('../../assets/images/banner.png');
+  background-image: url('../../assets/images/banner.jpg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 60vh;
+  height: 80vh;
+  margin-top: 2rem;
   color: white;
 }
 .project-launcher {
@@ -12,6 +13,7 @@
 }
 .slogan {
   font-size: 25px;
+  color: #2a9d8f;
 }
 .project-launcher a {
   background-color: white;
@@ -31,4 +33,33 @@
 }
 ul {
   list-style: none;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+h1 {
+  text-align: center;
+  color: #28A745;
+}
+h2 {
+  color: #2a9d8f;
+}
+.bg-light {
+  background-color: #769bca !important;
+}
+footer {
+  background-color: #ABB8C9;
+  margin-top: 2rem;
 }

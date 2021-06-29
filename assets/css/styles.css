@@ -13,7 +13,7 @@
 }
 .slogan {
   font-size: 25px;
-  color: #2a9d8f;
+  color: #005EB9;
 }
 .project-launcher a {
   background-color: white;
@@ -45,7 +45,9 @@ td, th {
   text-align: left;
   padding: 8px;
 }
-
+th {
+  color: #2a9d8f;
+}
 tr:nth-child(even) {
   background-color: #dddddd;
 }
@@ -56,8 +58,25 @@ h1 {
 h2 {
   color: #2a9d8f;
 }
+h3 {
+  color: #005EB9;
+}
+h4 {
+  color: #3FB7E7;
+}
+h5 {
+  color: #005EB9;
+}
 .bg-light {
   background-color: #769bca !important;
+}
+ul li a, .navbar-brand {
+  color: white !important;
+  font-weight: 900;
+}
+ul li a:hover, .navbar-brand:hover {
+  color: white !important;
+  background-color: #005EB9;
 }
 footer {
   background-color: #ABB8C9;
